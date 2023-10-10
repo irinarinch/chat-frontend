@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat</title>
+</head>
+<body>
+	<div id="root">    
+    <div class="modal">
+      <div class="modal__title">Выберите псевдоним</div>
+      <form class="form__group login-form">
+        <label >
+          <input type="text" class="login-input">
+          <div class="error-msg"></div>
+          <button type="submit" class="registration-btn">Продолжить</button>
+        </label>
+      </form>
+    </div>  
+    <div class="container">
+      <div class="chat__connect"></div>     
+      
+      <div class="chat__container" >
+        <div class="chat__area">
+          <div class="chat__messages-container"></div>
+          <form class="chat__messages-input">
+            <input type="text" class="form__input" placeholder="Type your message here">
+          </form>
+      </div>        
+    </div>
+    
+  </div>
+</body>
+</html>
